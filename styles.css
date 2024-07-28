@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(208, 232, 235);
+}
+.content {
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    left: 5%;
+}
+
+ol {
+    width: 500px;
+}
+
+.order {
+    padding: 10px;
+}
+
+h1 {
+    background-color: rgb(157, 191, 195);
+    color: white;
+    margin-left: -30px;
+    margin-right: -30px;
+    padding: 10px;
+}
+
+h1, h3 {
+    font-family: "Futura";
+}
