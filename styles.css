@@ -8,6 +8,7 @@ body {
     padding-right: 30px;
     position: absolute;
     left: 5%;
+    /* margin: 0 auto; <--- för att centrera hela content */ 
 }
 
 ol {
@@ -21,11 +22,22 @@ ol {
 h1 {
     background-color: rgb(157, 191, 195);
     color: white;
-    margin-left: -30px;
-    margin-right: -30px;
+    margin-left: -40px;
+    margin-right: -40px;
     padding: 10px;
 }
 
 h1, h3 {
     font-family: "Helvetica", "Tahoma";
+}
+
+.info {
+    display: flex;
+}
+
+.info-text {
+    padding: 10px;
+    padding-top: -0;
+    margin-left: 10px;
+    border: 2px solid rgb(208, 232, 235);
 }
